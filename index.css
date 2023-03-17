@@ -6,17 +6,17 @@ body {
 
 .logo {
   margin-top: 50px;
-  height: 12vh;
+  height: 15vh;
 }
 
 .body-class {
-  font-size: 3vw;
+  font-size: 20px;
   text-align: center;
 }
 
 .select-teams {
   /* background-color: black; */
-  font-size: 3vw;
+  font-size: 25px;
   margin-bottom: 50px;
   /* padding: 50px; */
 }
@@ -50,7 +50,7 @@ body {
 }
 
 .fix {
-  margin-top: -2em;
+  margin-top: -40px;
 }
 
 /* width */
