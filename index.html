@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Random Fixtures Generator</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body class="body-class">
+    <img src="download.png" , class="logo" />
+    <u><h1> ROBOWARS </h1></u>
+    <h1>Random Fixtures Generator</h1>
+    <div class="select-teams">
+    <label for="team-input">Enter team names (separated by commas):</label>
+    <input class="input-box" type="text" id="team-input" />
+    <!-- <br />
+      <h2><label for="team-list">Select teams:</label></h2>
+      <select class="teams" id="team-list" multiple>
+        <option>Team A</option>
+        <option>Team B</option>
+        <option>Team C</option>
+        <option>Team D</option>
+        <option>Team E</option>
+      </select> -->
+    </div>
+    <br />
+    <button class="gen-button" onclick="generateFixtures()">
+      Generate Fixtures
+    </button>
+    <br />
+    <br />
+    <div class="fix">
+      <h2><label>Fixtures:</label></h2>
+    </div>
+    <ul class="list" id="fixture-list"></ul>
+  </body>
+</html>
