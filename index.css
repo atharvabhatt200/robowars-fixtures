@@ -51,6 +51,12 @@ body {
 
 .fix {
   margin-top: -40px;
+  font-size: 30px;
+}
+
+.fix li {
+  padding-top: 20px;
+  list-style-type: none;
 }
 
 /* width */
